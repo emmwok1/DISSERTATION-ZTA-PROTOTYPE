@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs (generated at runtime, not source code)
+access_log.txt
+*.log
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
