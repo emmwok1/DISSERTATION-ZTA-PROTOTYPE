@@ -181,3 +181,9 @@ class User:
         self.department = department
         self.role = role
         self.credentials = credentials
+
+class Resource:
+    def __init__(self, resource_name, required_department, required_clearance_level):
+        self.resource_name = resource_name
+        self.required_department = required_department
+        self.required_clearance_level = required_clearance_level
