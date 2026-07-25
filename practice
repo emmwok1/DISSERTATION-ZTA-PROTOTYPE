@@ -1,0 +1,19 @@
+class Engine: 
+    def __init__(self, horsepower):
+        self.horsepower = horsepower
+    
+    def start(self):
+        print(f"Engine starting with {self.horsepower} horsepower")
+
+class Car:
+    def __init__(self, engine):
+        self.engine = engine
+
+    def drive(self):
+        self.engine.start()
+        print("Car is now driving")
+
+
+my_engine = Engine(300)
+my_car = Car(my_engine)
+my_car.drive()
